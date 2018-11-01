@@ -1,0 +1,246 @@
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved!
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+Saved! null
+[Thu Nov 01 2018 17:51:49 GMT+1300 (New Zealand Daylight Time)] ERROR { Error: 
+Your middleware did not return anything to the user. This normally happens when no route was matched or if the router did not reply with anything.
+
+This won't return anything:
+
+~~~
+// BAD
+server(ctx => {
+  console.log('Hello world');
+});
+~~~
+
+Make sure that something is returned from your middlware so a reply is sent to the user:
+
+~~~
+// GOOD:
+// Return with an arrow function
+server(ctx => 'Hello world');
+
+// Return with a explicit return
+server(ctx => {
+  // ...
+  return 'Hello world';
+});
+
+// Return a simple status code:
+server(ctx => 200);
+~~~
+
+Read the full documentation for reply here:
+https://serverjs.io/documentation/reply/
+
+    at buildError (/Users/aaronmeredith/Documents/Projects/forever/node_modules/server/error/index.js:2:17)
+    at new ErrorInstance (/Users/aaronmeredith/Documents/Projects/forever/node_modules/server/error/index.js:19:12)
+    at handler (/Users/aaronmeredith/Documents/Projects/forever/node_modules/server/plugins/final/index.js:15:21)
+    at Object.middle (/Users/aaronmeredith/Documents/Projects/forever/node_modules/server/src/join/index.js:42:27)
+  status: 500,
+  namespace: '/plugin/final/',
+  code: '/plugin/final/noreturn',
+  id: 'plugin-final-noreturn' }
+loaded! null
+loaded! null
+loaded! null
+loaded! null
+loaded! null
+loaded! null
+loaded! null
+loaded! null
+loaded! null
+loaded! null
+[Thu Nov 01 2018 18:03:35 GMT+1300 (New Zealand Daylight Time)] ERROR { Error: 
+Your middleware did not return anything to the user. This normally happens when no route was matched or if the router did not reply with anything.
+
+This won't return anything:
+
+~~~
+// BAD
+server(ctx => {
+  console.log('Hello world');
+});
+~~~
+
+Make sure that something is returned from your middlware so a reply is sent to the user:
+
+~~~
+// GOOD:
+// Return with an arrow function
+server(ctx => 'Hello world');
+
+// Return with a explicit return
+server(ctx => {
+  // ...
+  return 'Hello world';
+});
+
+// Return a simple status code:
+server(ctx => 200);
+~~~
+
+Read the full documentation for reply here:
+https://serverjs.io/documentation/reply/
+
+    at buildError (/Users/aaronmeredith/Documents/Projects/forever/node_modules/server/error/index.js:2:17)
+    at new ErrorInstance (/Users/aaronmeredith/Documents/Projects/forever/node_modules/server/error/index.js:19:12)
+    at handler (/Users/aaronmeredith/Documents/Projects/forever/node_modules/server/plugins/final/index.js:15:21)
+    at Object.middle (/Users/aaronmeredith/Documents/Projects/forever/node_modules/server/src/join/index.js:42:27)
+  status: 500,
+  namespace: '/plugin/final/',
+  code: '/plugin/final/noreturn',
+  id: 'plugin-final-noreturn' }
+loaded! null
+loaded! null
+loaded! null
